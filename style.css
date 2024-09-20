@@ -1,0 +1,45 @@
+img{
+  width:150px;
+  height: 150px;
+  border-radius:75px ;
+  border: solid rgb(57, 0, 148);
+  margin-top: 30px;
+  animation: bounce 2s infinite;
+}
+i{
+  margin: 10px;
+}
+
+h2{
+  font-size: 18px;
+}
+body{
+  text-align: center;
+  background: linear-gradient(to right,slateblue,rgb(0, 206, 137));
+  font-family: 'Trebuchet MS';
+  color: whitesmoke; 
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40%{ transform: translateY(-10px);}
+  60%{ transform: translateY(-5px);}
+}
+a{
+  background-color: lavenderblush;
+  color: slateblue;
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  margin: 15px 10px 15px 10px ;
+  border-radius:10px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.5s ease;
+}
+a:hover{
+  background-color: #af85ff;
+  color: rgb(57, 0, 131);
+  transform: scale(1.05);
+}
+ 
