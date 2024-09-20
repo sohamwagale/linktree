@@ -24,12 +24,19 @@ body{
   40%{ transform: translateY(-10px);}
   60%{ transform: translateY(-5px);}
 }
+
+.butts{
+  text-align: center;
+  
+}
+
 a{
   background-color: lavenderblush;
   color: slateblue;
-  display: block;
+  display: inline-block;
   font-size: 20px;
-  padding: 10px;
+  padding: 8px;
+  width: 450px;
   margin: 15px 10px 15px 10px ;
   border-radius:10px;
   text-align: center;
